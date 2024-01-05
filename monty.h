@@ -43,6 +43,7 @@ typedef struct instruction_s
 void free_token(m_stack_t *stack);
 int isInteger(const char *str);
 void add(m_stack_t **stack, unsigned int line_number);
+void sub(m_stack_t **stack, unsigned int line_number);
 void nop(m_stack_t **stack, unsigned int line_number);
 void push(m_stack_t **stack, unsigned int line_number);
 void pall(m_stack_t **stack, unsigned int line_number);

@@ -24,6 +24,7 @@ void getf(m_stack_t **g_stack, char *line, unsigned int line_number)
 		{"add", add},
 		{"pint", pint},
 		{"nop", nop},
+		{"sub", sub},
 		{NULL, NULL}};
 
 	for (i = 0; instructions[i].opcode; i++)
